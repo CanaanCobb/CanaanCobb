@@ -1,0 +1,57 @@
+/* styles both the basic html section and basic html extras section */
+body {
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  color: blue;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+span {
+  font-family: Monospace; 
+}
+
+.code {
+  font-family: Monospace;
+}
+
+.headings,
+.headings2 {
+  color: blueviolet;
+  font-size: 20px;
+  background-color: aqua; 
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* styles only the basic html section */
+.description_doctype,
+.description_html,
+.description_body,
+.description_head,
+.description_p,
+.description_h1h6{
+  color:black;
+  background-color: azure;
+  font-size: 18px;
+  text-align: center;
+}
+  
+/* styles only the basic html extras section */
+
+.division,
+.orderedlist,
+.unorderedlist,
+.listitems{
+  color: black;
+  background-color: azure;
+  font-size: 18px;
+  text-align: center;
+}
